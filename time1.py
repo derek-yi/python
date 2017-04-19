@@ -9,7 +9,7 @@ today = datetime.date.today()
 # 计算昨天的时间  
 yesterday = today - datetime.timedelta(days = 1)
 
-# 计算明天的时间 
+# test
 tomorrow = today + datetime.timedelta(days = 1)  
 
 # 打印这三个时间
