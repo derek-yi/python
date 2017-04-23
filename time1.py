@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
 
-# bbb
+# 引入datetime模块
 import datetime  
 
-# aaa
+#计算今天的时间
 today = datetime.date.today()
 
-
-# test
+# 计算昨天的时间  
 yesterday = today - datetime.timedelta(days = 1)
 
-# test
+# 计算明天的时间 
 tomorrow = today + datetime.timedelta(days = 1)  
-
 
 # 打印这三个时间
 print(yesterday, today, tomorrow)
